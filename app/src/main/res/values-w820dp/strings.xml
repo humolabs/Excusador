@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skip">SKIP</string>
+    <string name="exit">EXIT</string>
+    <string name="random">Random</string>
+    <string name="humolabs">humolabs</string>
+    <string name="MensajeSalir">Desea salir de la aplicación?</string>
+    <string name="salir">SALIR</string>
+    <string name="vista_previa">-VISTA PREVIA-</string>
+    <string name="config">--- CONFIGURA LA EXCUSA ---</string>
+</resources>

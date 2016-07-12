@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relLayoutMain"
+    tools:context="com.humolabs.excusador.MainActivity">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/kbvSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_color"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimaryLight"
+        android:alpha="0.5"
+        android:text="@string/app_name"
+        android:gravity="center|bottom"
+        android:textColor="#000000"
+        android:textSize="56dp"
+        />
+
+    <TextView
+        android:id="@+id/txtVistaPrevia"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/txtTitulo"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryLight"
+        android:alpha="0.6"
+        android:text="@string/vista_previa"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+
+    <com.humolabs.excusador.TypeWriter
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtPreview"
+        android:layout_below="@+id/txtVistaPrevia"
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimaryLight"
+        android:alpha="0.75"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:id="@+id/txtConfig"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/txtPreview"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryLight"
+        android:alpha="0.6"
+        android:text="@string/config"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+
+    <Spinner
+        android:id="@+id/spnCabecera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtConfig"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimaryLight"
+        android:alpha="0.85"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        />
+
+    <Spinner
+        android:id="@+id/spnCuando"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spnCabecera"
+        android:background="@color/colorPrimaryLight"
+        android:alpha="0.85"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        />
+
+    <Spinner
+        android:id="@+id/spnExcusa"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spnCuando"
+        android:background="@color/colorPrimaryLight"
+        android:alpha="0.85"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnEnviar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:theme="@style/MyButton"
+        android:layout_below="@+id/spnExcusa"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/random"
+        android:theme="@style/MyButton"
+        android:layout_below="@+id/btnEnviar"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:id="@+id/btnExit"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:theme="@style/MyButton"
+        android:layout_below="@+id/btnRandom"
+        android:layout_alignParentEnd="true"
+         />
+
+
+
+
+</RelativeLayout>

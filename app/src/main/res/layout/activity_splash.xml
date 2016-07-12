@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.humolabs.excusador.Splash">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/kbvSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_gris"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logo"
+        android:background="@android:color/transparent"
+        android:layout_above="@+id/htext"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.hanks.htextview.HTextView
+        android:id="@+id/htext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:gravity="top|center"
+        android:textColor="#64DD17"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="220dp"
+        android:visibility="visible"
+        android:textStyle="bold"
+    />
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        android:theme="@style/MyButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>

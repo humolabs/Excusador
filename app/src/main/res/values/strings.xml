@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Excusador</string>
+    <string name="splash">humolabs</string>
+    <string name="tituloDialog">Excusa</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="test">titulo</string>
+    <string name="skip">SKIP</string>
+    <string name="exit">EXIT</string>
+    <string name="random">Random</string>
+    <string name="humolabs">humolabs</string>
+    <string name="MensajeSalir">Desea salir de la aplicación?</string>
+    <string name="salir">SALIR</string>
+    <string name="vista_previa">--- VISTA PREVIA ---</string>
+    <string name="config">--- CONFIGURA LA EXCUSA ---</string>
+
+    <string-array name="strCabecera">
+        <item>Patrón </item>
+        <item>Perdón </item>
+        <item>Buen día </item>
+        <item>Buenas tardes </item>
+        <item>Buenas noches </item>
+        <item>Señor </item>
+        <item>Hola linda </item>
+        <item>Hola! </item>
+        <item>Disculpame </item>
+        <item>Querido </item>
+        <item>Lincesa </item>
+        <item>Lince </item>
+        <item>Jefe </item>
+        <item>Maestro </item>
+        <item>Capo </item>
+    </string-array>
+
+
+    <string-array name="strCuando">
+        <item>hoy no voy al trabajo porque </item>
+        <item>hoy no puedo ir porque </item>
+        <item>hoy no iré al trabajo porque </item>
+        <item>mañana no podré ir al trabajo porque </item>
+        <item>se me complica poder ir hoy porque </item>
+        <item>hoy no asistiré porque </item>
+        <item>no voy porque </item>
+        <item>no podré ir porque </item>
+        <item>lo pasamos para mañana porque </item>
+        <item>lo dejamos para más adelante porque </item>
+    </string-array>
+
+
+    <string-array name="strExcusa">
+        <item>se me inundó la casa</item>
+        <item>me levanté con mucho dolor de panza</item>
+        <item>viene la gente de arnet a arreglar internet</item>
+        <item>viene el gasista</item>
+        <item>se murió una tia mia</item>
+        <item>no me siento bien</item>
+        <item>se enfermó mi nene</item>
+        <item>se enfermó mi nena</item>
+        <item>debo ir al abogado</item>
+    </string-array>
+
+
+</resources>
+
